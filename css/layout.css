@@ -723,6 +723,13 @@ box-shadow:  20px 20px 60px #cfcccc,
              -20px -20px 60px #ffffff;
   
 }
+
+@media screen and (max-width: 530px) {
+  .work01 {
+    margin: 1rem;
+    width: 80vw;
+  }
+}
 .work-t {
   margin: 0.5rem;
   font-size: 1.5rem;
