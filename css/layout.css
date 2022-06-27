@@ -699,3 +699,32 @@ small {
   width: 100%;
   height: 100%;
 }
+
+.flex-container {
+	
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+  
+}
+
+.work01 {
+  margin: 4rem;
+  padding: 2rem;
+  width: 30vw;
+  border-radius: 50px;
+background: #f4f0f0;
+box-shadow:  20px 20px 60px #cfcccc,
+             -20px -20px 60px #ffffff;
+  
+}
+.work-t {
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
