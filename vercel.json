@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/",
+      "destination": "https://koba-design.vercel.app/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "destination": "https://koba-design.vercel.app/:path*",
       "permanent": true
